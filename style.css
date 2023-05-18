@@ -323,6 +323,8 @@ nav a:hover {
 }
 
 .coluna1 h1 {
+    width: 250px;
+    display: flex;
     color: white;
 }
 
@@ -341,16 +343,19 @@ nav a:hover {
 
 
 .coluna2 {
+
     margin-left: 140px;
 }
 
 .coluna2 h1 {
+    width: 250px;
+    display: flex;
     color: white;
 }
 
 .coluna2 .astronauta {
     width: 200px;
-    margin-top: 20px;
+
 }
 
 .card-astronauta4-coluna2 {
@@ -358,12 +363,19 @@ nav a:hover {
 }
 
 
-.populares-conteudo img {
-    transition: all .5s ease-in-out;
+.populares-conteudo .astronauta {
+    transition: all .3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.747);
+
 }
 
-.populares-conteudo img:hover {
-    transform: scale(1.10);
+.populares-conteudo .astronauta:hover {
+    transform: translateX(15px);
+}
+
+.preco {
+    color: #ff5b50;
+    font-size: 13px
 }
 
 /* fim do final */

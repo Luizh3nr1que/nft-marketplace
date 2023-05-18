@@ -10,4 +10,4 @@
 <br>
 
 <h1>Este projeto pode ser visto aqui</h1>
-https://luizh3nr1que.github.io/Site-blog/
+https://luizh3nr1que.github.io/nft-marketplace/

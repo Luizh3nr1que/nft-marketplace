@@ -1,6 +1,6 @@
 # nft-marketplace
 
-<b>Esse e um dos maiores projetos que estou desenvolvendo , ainda o site esta somente na versao desktop porem pretendo deixar mais responsivo <b>
+<b>Esse e um dos maiores projetos que estou desenvolvendo, ainda o site esta somente na versão desktop porem pretendo deixar mais responsivo. <b>
 <br>
 
 <h1>Tecnologias utilizadas</h1>

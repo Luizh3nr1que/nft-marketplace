@@ -502,6 +502,7 @@ footer {
 
 .redes {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 30px;
     justify-content: space-around;
@@ -510,6 +511,12 @@ footer {
 .redes h1 {
     color: #5a5757;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.redes h2 {
+    color: #5a5757;
+    font-size: 13px;
     cursor: pointer;
 }
 

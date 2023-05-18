@@ -517,18 +517,25 @@ footer {
 .redes h2 {
     color: #5a5757;
     font-size: 13px;
-    cursor: pointer;
+    cursor: default;
+    user-select: none;
 }
 
 .redes h1:hover {
     color: #636060;
 }
 
+.redes h2:hover {
+    color: #636060;
+}
+
 .icones-redes {
     display: flex;
     gap: 10px;
+    transition: all transform 0.3s;
 }
 
 .icones-redes a:hover {
-    color: #ffffff;
+    transition: all transform 0.3s;
+    transform: translateY(-10px);
 }

@@ -1,6 +1,6 @@
 # nft-marketplace
 
-<b>Esse e um dos maiores projetos que estou desenvolvendo , ainda o site esta somente na versao desktop porem pretendo deixar mais responsivo <b>
+<b>Esse e um dos maiores projetos que estou desenvolvendo, ainda o site esta somente na versão desktop porem pretendo deixar mais responsivo. <b>
 <br>
 
 <h1>Tecnologias utilizadas</h1>
@@ -10,4 +10,4 @@
 <br>
 
 <h1>Este projeto pode ser visto aqui</h1>
-https://luizh3nr1que.github.io/Site-blog/
+https://luizh3nr1que.github.io/nft-marketplace/

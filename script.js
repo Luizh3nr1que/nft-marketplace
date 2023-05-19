@@ -69,7 +69,7 @@ var erro = document.querySelector('.erro');
 for (var i = 0; i < nft.length; i++) {
     nft[i].addEventListener('click', () => {
         erro.style.display = 'block';
-        erro.innerHTML = 'Por Favor, conecte-se a uma carteira de criptomoedas para comprar!';
+        erro.innerHTML = 'Por favor, conecte-se a uma carteira de criptomoedas para comprar!';
 
         setTimeout(function () {
             erro.innerHTML = '';

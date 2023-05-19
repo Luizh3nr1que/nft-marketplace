@@ -123,3 +123,106 @@
         margin-top: 1px;
     }
 }
+
+
+@media screen and (max-width:414px) {
+    header {
+        gap: 20px;
+    }
+
+    .card1-principal {
+        display: none;
+    }
+
+    .card2-principal h1 {
+        font-size: 35px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .gallery-imgs img {
+        width: 180px;
+    }
+
+    .gallery-imgs {
+        width: 700px;
+        margin-left: 0px;
+        padding: 5px;
+        overflow-y: scroll;
+    }
+
+    .info img {
+        display: none;
+    }
+
+    .right-bord-text {
+        border: 1px solid transparent;
+        justify-content: start;
+        width: 300px;
+        font-size: 14px;
+        margin-left: -40px;
+    }
+
+    .populares-conteudo .titulo {
+        margin-left: -180px;
+    }
+
+
+    .card-coluna1 .astronauta {
+        width: 150px;
+    }
+
+    .coluna1 {
+        border: none;
+    }
+
+    .coluna2 {
+        margin-top: 25px;
+        margin-left: -60px;
+    }
+
+    .card-coluna1 h1 {
+        font-size: 20px;
+    }
+
+    .card-astronauta3-coluna1 .astronauta {
+        width: 150px;
+    }
+
+    .card-astronauta3-coluna1 h1 {
+        font-size: 20px;
+    }
+
+    .card-coluna2 .astronauta {
+        width: 150px;
+    }
+
+    .card-coluna2 h1 {
+        font-size: 20px;
+    }
+
+    .card-astronauta4-coluna2 .astronauta {
+        width: 150px;
+    }
+
+    .card-astronauta4-coluna2 h1 {
+        font-size: 20px;
+    }
+
+    .time {
+        margin-right: 200px;
+    }
+
+    .info-footer .info-site-footer {
+        display: none;
+    }
+
+    .info-footer .escrita {
+        margin-left: 100px;
+    }
+
+    .redes {
+        gap: 3px;
+    }
+
+}

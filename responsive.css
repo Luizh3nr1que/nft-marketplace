@@ -302,3 +302,23 @@
         padding-left: 0px;
     }
 }
+
+@media screen and (max-width:370px) {
+    .container-principal {
+        margin-left: 20px !important;
+    }
+
+    .info p {
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .populares h1 {
+        font-size: 28px;
+    }
+
+    .populares {
+        padding-left: -10px;
+    }
+
+}

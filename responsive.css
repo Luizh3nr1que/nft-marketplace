@@ -289,14 +289,12 @@
 
 @media screen and (max-width:497px) {
     .populares {
-        border: 1px solid red;
         padding-left: 20px;
     }
 }
 
 @media screen and (max-width:442px) {
     .populares {
-        border: 1px solid red;
         padding-left: 0px;
     }
 }

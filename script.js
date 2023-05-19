@@ -79,20 +79,3 @@ for (var i = 0; i < nft.length; i++) {
 }
 
 
-// const astro1 = document.getElementById('SelectCompra');
-// const erro = document.querySelector('.erro');
-
-// astro1.addEventListener('click', () => {
-
-// });
-
-// const astro2 = document.getElementById('SelectCompra2');
-
-// astro2.addEventListener('click', () => {
-//     erro.innerHTML = 'Para comprar, conecte-se a uma carteira de criptomoedas!';
-
-//     setTimeout(function () {
-//         erro.innerHTML = '';
-//     }, 3000);
-// });
-

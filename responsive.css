@@ -50,6 +50,20 @@
     }
 }
 
+@media screen and (max-width:747px) {
+    .container-principal {
+        margin-left: 50px;
+    }
+
+    .gallery-imgs {
+        padding: 0;
+    }
+
+    .coluna2 {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
 
 @media screen and (max-width:768px) {
     .coluna1 {
@@ -66,7 +80,7 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
     .container-principal {
         width: 750px;
         gap: 18px;
@@ -124,8 +138,15 @@
     }
 }
 
+@media screen and (max-width:553px) {
+    .gallery-imgs {
+        width: 430px !important;
+        margin-left: 50px !important;
+    }
+}
 
-@media screen and (max-width:414px) {
+
+@media screen and (max-width:560px) {
     header {
         gap: 20px;
     }
@@ -225,4 +246,24 @@
         gap: 3px;
     }
 
+}
+
+@media screen and (max-width:483px) {
+    .gallery-imgs {
+        margin-left: 20px !important;
+        padding: 5px;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .gallery-imgs {
+        margin-left: 10px !important;
+        padding: 5px;
+        overflow-y: scroll;
+    }
+
+    .card2-principal {
+        margin-left: -30px;
+    }
 }

@@ -155,7 +155,6 @@
     }
 
     .populares {
-        border: 1px solid red;
         padding-left: 60px;
     }
 }
@@ -288,9 +287,14 @@
 }
 
 @media screen and (max-width:497px) {
+    .container-principal {
+        margin-left: 50px !important;
+    }
+
     .populares {
         padding-left: 20px;
     }
+
 }
 
 @media screen and (max-width:442px) {

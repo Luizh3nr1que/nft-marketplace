@@ -313,12 +313,12 @@ nav a:hover {
 }
 
 .time {
+    margin-top: -10px;
     color: rgb(196, 196, 196);
     text-align: center;
 }
 
 #timer {
-    margin-top: 5px;
     color: #ff5b50;
 }
 
@@ -393,9 +393,24 @@ nav a:hover {
     transform: translateX(15px);
 }
 
+
 .preco {
     color: #ff5b50;
     font-size: 13px;
+}
+
+.erro {
+    user-select: none;
+    display: none;
+    background-color: var(--color-logo);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 13px;
+    width: 230px;
+    margin: auto;
+    text-align: center;
 }
 
 /* fim do final */

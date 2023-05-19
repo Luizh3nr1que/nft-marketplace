@@ -62,3 +62,37 @@ function fecharWallet() {
 buttonFechar.addEventListener('click', fecharWallet);
 
 
+
+var nft = document.querySelectorAll('.astronauta');
+var erro = document.querySelector('.erro');
+
+for (var i = 0; i < nft.length; i++) {
+    nft[i].addEventListener('click', () => {
+        erro.style.display = 'block';
+        erro.innerHTML = 'Por Favor, conecte-se a uma carteira de criptomoedas para comprar!';
+
+        setTimeout(function () {
+            erro.innerHTML = '';
+            erro.style.display = 'none';
+        }, 5000);
+    });
+}
+
+
+// const astro1 = document.getElementById('SelectCompra');
+// const erro = document.querySelector('.erro');
+
+// astro1.addEventListener('click', () => {
+
+// });
+
+// const astro2 = document.getElementById('SelectCompra2');
+
+// astro2.addEventListener('click', () => {
+//     erro.innerHTML = 'Para comprar, conecte-se a uma carteira de criptomoedas!';
+
+//     setTimeout(function () {
+//         erro.innerHTML = '';
+//     }, 3000);
+// });
+

@@ -138,10 +138,25 @@
     }
 }
 
+@media screen and (max-width:630px) {
+    .container-principal {
+        margin-left: 0px !important;
+    }
+}
+
 @media screen and (max-width:553px) {
+    .container-principal {
+        margin-left: 90px !important;
+    }
+
     .gallery-imgs {
         width: 430px !important;
         margin-left: 50px !important;
+    }
+
+    .populares {
+        border: 1px solid red;
+        padding-left: 60px;
     }
 }
 
@@ -254,6 +269,10 @@
         padding: 5px;
         overflow-y: scroll;
     }
+
+    .container-principal {
+        margin-left: 40px !important;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -265,5 +284,19 @@
 
     .card2-principal {
         margin-left: -30px;
+    }
+}
+
+@media screen and (max-width:497px) {
+    .populares {
+        border: 1px solid red;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:442px) {
+    .populares {
+        border: 1px solid red;
+        padding-left: 0px;
     }
 }

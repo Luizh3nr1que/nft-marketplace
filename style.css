@@ -350,6 +350,7 @@ nav a:hover {
 
 .coluna1 .astronauta {
     width: 230px;
+    cursor: pointer;
 
 }
 
@@ -370,6 +371,7 @@ nav a:hover {
 
 .coluna2 .astronauta {
     width: 230px;
+    cursor: pointer;
 
 }
 

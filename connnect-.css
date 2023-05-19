@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#cobertura {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    pointer-events: auto;
+    backdrop-filter: blur(8px);
+}
+
+.wallet-container {
+    display: none;
+}
+
+.wallet {
+    z-index: 999;
+    opacity: 1;
+    position: absolute;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+.wallet-container .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet-container #fechar-wallet {
+    float: right;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wallet-container #fechar-wallet:hover {
+    color: red;
+}
+
+.wallet h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.wallet p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.link {
+    color: rgb(0, 111, 185);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(5, 135, 221);
+    text-decoration: underline;
+}
+
+.wallets-button {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.wallet-container img {
+    width: 30px;
+}
+
+
+.metamask {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: none;
+    background-color: transparent;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+.metamask:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.coinbase {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: none;
+    background-color: transparent;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+.coinbase:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.walletConnect {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: none;
+    background-color: transparent;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+.walletConnect:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.trust {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: none;
+    background-color: transparent;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+.trust:hover {
+    background-color: rgb(206, 206, 206);
+}

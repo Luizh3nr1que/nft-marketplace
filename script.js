@@ -31,3 +31,34 @@ window.addEventListener('DOMContentLoaded', function () {
 
     updateTimer();
 });
+
+
+
+
+
+
+const button = document.getElementById('abrirWallets');
+
+function abrirWallet() {
+    const body = document.querySelector('body');
+    const wallet = document.querySelector('.wallet-container');
+
+    body.style.overflow = 'hidden';
+    wallet.style.display = 'block';
+}
+button.addEventListener('click', abrirWallet);
+
+
+
+const buttonFechar = document.getElementById('fechar-wallet');
+
+function fecharWallet() {
+    const body = document.querySelector('body');
+    const wallet = document.querySelector('.wallet-container');
+
+    body.style.overflow = 'scroll'
+    wallet.style.display = 'none';
+}
+buttonFechar.addEventListener('click', fecharWallet);
+
+

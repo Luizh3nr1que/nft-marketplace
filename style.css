@@ -83,12 +83,17 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.button img {
+    padding-bottom: 3px;
+    width: 30px;
+}
+
 .button:hover {
     font-weight: bold;
     background-color: #ff5b50;
-    color: white;
     transition: all .5s ease-in-out;
 }
+
 
 .container-principal {
     display: flex;

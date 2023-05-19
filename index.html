@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="connnect-.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -17,6 +18,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
     <header>
         <div class="logo">
             <img src="img/logo.png">
@@ -26,13 +28,50 @@
             <a href="#sobre">Sobre</a>
             <a href="#">Faq</a>
         </nav>
-        <button class="button">
-            <img src="img/logo_MetaMask.svg" draggable="false">
+        <button id="abrirWallets" class="button">
+            <img src="img/carteira.png" draggable="false">
             Connect Wallet
         </button>
     </header>
 
-    <div id="top"></div>
+    <div class="wallet-container">
+        <div id="cobertura">
+            <div class="wallet">
+
+                <div class="header">
+                    <h1>Connect Wallet</h1>
+                    <button id="fechar-wallet">X</button>
+                </div>
+                <p>Se você não possui uma carteira, pode selecionar um provedor e criar uma agora. <a class="link"
+                        href="#">Saber
+                        mais</a>
+                </p>
+
+                <div class="wallets-button">
+                    <button class="metamask">
+                        <img src="img/logo_MetaMask.svg" draggable="false">
+                        <b>Metamask</b>
+                    </button>
+
+                    <button class="coinbase">
+                        <img src="img/coinbase.png" draggable="false">
+                        <b>Coinbase Wallet</b>
+                    </button>
+
+                    <button class="walletConnect">
+                        <img src="img/walletconnect-alternative.png" draggable="false">
+                        <b>WalletConnect</b>
+                    </button>
+
+                    <button class="trust">
+                        <img src="img/trust.png" draggable="false">
+                        <b>trust</b>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <main>
         <section class="container-principal">

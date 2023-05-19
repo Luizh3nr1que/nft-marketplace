@@ -445,7 +445,6 @@ footer {
 }
 
 .footer-conteudo .escrita {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -466,10 +465,11 @@ footer {
     border: none;
     padding: 10px;
     outline: none;
-    color: white;
+    color: var(--color-logo);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     margin-top: 30px;
+    font-size: 12px;
 }
 
 .input-footer button {

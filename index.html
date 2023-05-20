@@ -37,24 +37,38 @@
             Connect Wallet
         </button>
 
-        <div id="abrirPerfil" class='perfil-container'>
-            <div class="perfil">
-                <img src="img/perfil.png">
+        <div class="perfil-display">
+            <div id="abrirPerfil" class='perfil-container'>
+                <div class="perfil">
+                    <img src="img/perfil.png">
+                </div>
+                <span class="material-icons">
+                    expand_more
+                </span>
+
+                <div id="menu" class="menu">
+                    <ul class="perfil">
+                        <li><a style="padding-right: 99px;" href="#">Perfil</a></li>
+                        <li><a class="border-perfil" href="#">Minhas NFT</a></li>
+                        <hr>
+                        <li><a style="padding-right: 86px; margin-top: 5px;" href="#">Logout</a></li>
+                    </ul>
+                </div>
             </div>
-            <span class="material-icons">
-                expand_more
-            </span>
-            <div class="perfil-aberto">
+
+            <!-- <div class="perfil-aberto">
                 <div class="perfil-conteudo">
                     <a href="#">Perfil</a>
                     <a class="border-perfil" href="#">Minhas NFT</a>
                     <a href="#">Logout</a>
                 </div>
-
-            </div>
-        </div>
+            </div> -->
     </header>
 
+
+
+
+    </div>
 
     <!-- nav mobile -->
 
@@ -75,7 +89,7 @@
         </button>
         <button onclick="togglemenu()">
             <span>
-                <a href="#sobre">Sobre</a>
+                <a href="#">Sobre</a>
             </span>
         </button>
 
@@ -179,7 +193,7 @@
 
         <!-- informaçoes inicio -->
 
-        <section id="sobre" class="info">
+        <section id="sobre class=" info">
             <div class="info-conteudo">
                 <div class="left-bord">
                     <h1>10k+</h1>

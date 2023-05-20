@@ -81,16 +81,13 @@ for (var i = 0; i < nft.length; i++) {
 
 
 const buttonPerfil = document.getElementById('abrirPerfil');
-const perfil = document.querySelector('.perfil-aberto');
-const body = document.querySelector('body');
+const perfil = document.querySelector('.menu');
 
 buttonPerfil.addEventListener('click', () => {
     if (perfil.style.display === 'none') {
         perfil.style.display = 'block';
-        body.style.overflow = 'hidden'; // Desativa o scroll da página
     } else {
         perfil.style.display = 'none';
-        body.style.overflow = 'auto'; // Reativa o scroll da página
     }
 });
 

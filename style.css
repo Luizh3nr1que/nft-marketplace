@@ -100,6 +100,7 @@ nav a:hover {
 .perfil-container {
     display: flex;
     align-items: center;
+    justify-content: right;
     gap: 10px;
     border-radius: 23px;
     background-color: #252525;
@@ -129,37 +130,44 @@ nav a:hover {
     color: rgb(206, 206, 206);
 }
 
-.perfil-aberto {
+.menu {
     display: none;
-    width: 160px;
     position: absolute;
-    border-radius: 8px;
-    background-color: #252525;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    right: 127px;
-    bottom: 649px;
+    top: 80px;
+    border-radius: 18px;
+
 }
 
-.perfil-conteudo {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+ul {
+    background-color: #252525 !important;
+    height: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 150px !important;
+    border-radius: 8px !important;
+    list-style: none;
 }
 
-.perfil-conteudo a {
-    padding: 8px 14px 8px 14px;
+li {
+    margin-bottom: 20px;
+}
+
+hr {
+    border-color: #747474;
+    margin-bottom: 10px;
+}
+
+ul a {
+    padding: 8px 49.6px 8px 14px;
     text-decoration: none;
     color: #808080;
 }
 
-.perfil-conteudo a:hover {
+li a:hover {
     background-color: #030303cc;
 }
 
-.border-perfil {
-    border-bottom: 1px solid #4b4b4b;
-}
+
 
 
 

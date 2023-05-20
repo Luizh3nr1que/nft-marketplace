@@ -19,6 +19,14 @@
     margin: auto;
 }
 
+.nav-conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-top: -380px;
+    width: 100%;
+    text-align: center;
+}
+
 .perfilMobile {
     margin-top: 30px;
 }

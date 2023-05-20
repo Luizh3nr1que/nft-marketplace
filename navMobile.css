@@ -14,6 +14,10 @@
     cursor: pointer;
 }
 
+.novaImg {
+    width: 30px;
+}
+
 .menuImg {
     width: 150px;
     margin: auto;
@@ -62,6 +66,7 @@
     border: 0;
     color: white;
     margin-bottom: 16px;
+    user-select: none;
 
 }
 

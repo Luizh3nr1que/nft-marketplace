@@ -96,10 +96,17 @@ buttonPerfil.addEventListener('click', () => {
 
 function togglemenu() {
     const menuMobile = document.getElementById('menu-mobile')
+    const img = document.getElementById('menu-img');
 
     if (menuMobile.className === "menu-mobile-active") {
         menuMobile.className = "menu-mobile";
+        img.src = './img/hamburger.png';
+        img.style.width = '60px';
     } else {
         menuMobile.className = "menu-mobile-active"
+        img.src = './img/menu-fechar.png';
+        img.style.width = '45px';
+        img.style.top = '5px';
+        img.style.left = '5px';
     }
 }

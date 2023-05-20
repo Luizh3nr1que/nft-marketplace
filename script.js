@@ -91,6 +91,19 @@ buttonPerfil.addEventListener('click', () => {
     }
 })
 
+window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    if (scrolled > 0) {
+        perfil.style.display = 'none';
+    }
+});
+window.addEventListener('touchmove', () => {
+    const scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrolled > 0) {
+        perfil.style.display = 'none';
+    }
+});
+
 
 function togglemenu() {
     const menuMobile = document.getElementById('menu-mobile')

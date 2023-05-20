@@ -80,6 +80,10 @@
         margin-left: 15px;
         gap: 90px;
     }
+
+    .nav-conteudo {
+        margin-top: -380px !important;
+    }
 }
 
 @media screen and (max-width:788px) {
@@ -159,6 +163,11 @@
     }
 }
 
+@media screen and (max-width:630px) {
+    .nav-conteudo {
+        margin-top: -380px !important;
+    }
+}
 
 @media screen and (max-width:630px) {
     .container-principal {
@@ -285,6 +294,12 @@
 }
 
 @media screen and (max-width:483px) {
+    .nav-conteudo {
+        margin-top: -340px !important;
+    }
+}
+
+@media screen and (max-width:483px) {
     .gallery-imgs {
         margin-left: 20px !important;
         padding: 5px;
@@ -349,7 +364,15 @@
 
     .menu {
         top: 140px;
+    }
 
+    .nav-conteudo {
+        margin-top: -180px !important;
+        padding: 10px;
+    }
+
+    .nav-conteudo img {
+        width: 130px;
     }
 
 }

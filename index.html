@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="connnect-.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="navMobile.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -43,17 +44,53 @@
             <span class="material-icons">
                 expand_more
             </span>
+            <div class="perfil-aberto">
+                <div class="perfil-conteudo">
+                    <a href="#">Perfil</a>
+                    <a class="border-perfil" href="#">Minhas NFT</a>
+                    <a href="#">Logout</a>
+                </div>
+
+            </div>
         </div>
     </header>
 
-    <div class="perfil-aberto">
-        <div class="perfil-conteudo">
-            <a href="#">Perfil</a>
-            <a class="border-perfil" href="#">Minhas NFT</a>
-            <a href="#">Logout</a>
-        </div>
 
-    </div>
+    <!-- nav mobile -->
+
+    <button class="mobile2" onclick="togglemenu()">
+        <img src="img/hamburger.png" draggable="false">
+    </button>
+
+    <nav class="menu-mobile" id="menu-mobile">
+        <span>
+            <img class="menuImg" src="img/logo.png" draggable="false">
+        </span>
+
+
+        <button onclick="togglemenu()">
+            <span class="perfilMobile">
+                <a href="#perfil-navigation">Comprar NFT</a>
+            </span>
+        </button>
+        <button onclick="togglemenu()">
+            <span>
+                <a href="#Habilidades-navigation">Sobre</a>
+            </span>
+        </button>
+
+        <button onclick="togglemenu()">
+            <span>
+                <a href="#Projetos-navigation">Faq</a>
+            </span>
+        </button>
+
+    </nav>
+
+    <!-- fim nav mobile -->
+
+
+
 
     <div class="wallet-container">
         <div id="cobertura">

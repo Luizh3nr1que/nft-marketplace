@@ -90,3 +90,14 @@ buttonPerfil.addEventListener('click', () => {
         perfil.style.display = 'none';
     }
 })
+
+
+function togglemenu() {
+    const menuMobile = document.getElementById('menu-mobile')
+
+    if (menuMobile.className === "menu-mobile-active") {
+        menuMobile.className = "menu-mobile";
+    } else {
+        menuMobile.className = "menu-mobile-active"
+    }
+}

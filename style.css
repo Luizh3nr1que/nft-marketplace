@@ -132,7 +132,7 @@ nav a:hover {
 .perfil-aberto {
     display: none;
     width: 160px;
-    position: absolute;
+    position: fixed;
     border-radius: 8px;
     background-color: #252525;
     padding-top: 10px;

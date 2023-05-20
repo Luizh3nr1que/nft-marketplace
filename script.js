@@ -105,7 +105,7 @@ function togglemenu() {
     } else {
         menuMobile.className = "menu-mobile-active"
         img.src = './img/menu-fechar.png';
-        img.style.width = '45px';
+        img.style.width = '35px';
         img.style.top = '5px';
         img.style.left = '5px';
     }

@@ -79,3 +79,14 @@ for (var i = 0; i < nft.length; i++) {
 }
 
 
+
+const buttonPerfil = document.getElementById('abrirPerfil');
+const perfil = document.querySelector('.perfil-aberto');
+
+buttonPerfil.addEventListener('click', () => {
+    if (perfil.style.display === 'none') {
+        perfil.style.display = 'block';
+    } else {
+        perfil.style.display = 'none';
+    }
+})

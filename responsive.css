@@ -7,17 +7,12 @@
 @media screen and (max-width:1024px) {
     .perfil-aberto {
         right: 99px;
-        bottom: 1155px;
+        bottom: 560px;
     }
-
 }
 
 @media screen and (max-width:960px) {
-    .perfil-aberto {
-        right: 99px;
-        bottom: 898px;
-        position: none;
-    }
+
 
     .logo-principal {
         display: none;
@@ -80,6 +75,11 @@
 }
 
 @media screen and (max-width:768px) {
+    .perfil-aberto {
+        right: 78px;
+        bottom: 814px;
+    }
+
     .coluna1 {
         margin-left: -140px;
     }
@@ -170,6 +170,28 @@
         margin-top: 1px;
     }
 }
+
+@media screen and (max-width:800px) {
+    .perfil-aberto {
+        right: 99px;
+        bottom: 560px;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .perfil-aberto {
+        right: 77px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .perfil-aberto {
+        right: 99px;
+        bottom: 560px;
+    }
+
+}
+
 
 @media screen and (max-width:671px) {
     .perfil-aberto {

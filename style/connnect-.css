@@ -49,6 +49,7 @@
 
 .wallet-container #fechar-wallet:hover {
     color: red;
+    transform: scale(1.25);
 }
 
 .wallet h1 {

@@ -562,8 +562,12 @@ footer {
     color: var(--color-logo);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 12px;
+}
+
+form {
+    display: flex;
 }
 
 .input-footer button {
@@ -571,9 +575,11 @@ footer {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     height: 40px;
-    top: 30px;
+    width: 30px;
+    top: 10px;
     left: -5px;
     border: none;
+    background-color: #4b4b4b;
     padding: 5px;
     font-size: 13px;
     font-weight: bold;
@@ -581,7 +587,25 @@ footer {
 }
 
 .input-footer button:hover {
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(131, 131, 131);
+}
+
+.input-footer button>img {
+    width: 20px;
+    filter: invert(1);
+}
+
+.msg {
+    color: var(--color-logo);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.enviado {
+    color: green;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .info-site-footer {

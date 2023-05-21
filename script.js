@@ -111,3 +111,33 @@ function togglemenu() {
 
     }
 }
+
+
+const buttonFooter = document.getElementById('submitFooter');
+const msg = document.querySelector('.msg');
+const enviado = document.querySelector('.enviado');
+const input = document.getElementById('input');
+
+buttonFooter.addEventListener('click', () => {
+    if (input.value === '') {
+        event.preventDefault();
+        msg.innerHTML = 'Por favor, preencha seu email.';
+        setTimeout(function () {
+            msg.innerHTML = '';
+        }, 3000);
+    } else if (!/\S+@\S+\.\S+/.test(input.value)) {
+        event.preventDefault();
+        msg.innerHTML = 'Por favor, insira um endereço de email válido.';
+        setTimeout(function () {
+            msg.innerHTML = '';
+        }, 3000);
+    } else {
+        event.preventDefault();
+        enviado.innerHTML = 'E-mail cadastrado com sucesso!';
+        input.value = '';
+        setTimeout(function () {
+            enviado.innerHTML = '';
+        }, 3000);
+    }
+});
+

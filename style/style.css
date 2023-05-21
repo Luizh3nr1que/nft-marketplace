@@ -465,6 +465,13 @@ li a:hover {
     transform: translateX(15px);
 }
 
+.infoPreço {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    font-weight: 900;
+    width: 230px;
+}
 
 .preco {
     color: #ff5b50;

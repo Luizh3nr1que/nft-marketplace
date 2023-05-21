@@ -167,9 +167,7 @@
     .nav-conteudo {
         margin-top: -380px !important;
     }
-}
 
-@media screen and (max-width:630px) {
     .container-principal {
         margin-left: 0px !important;
     }
@@ -187,6 +185,11 @@
 
     .populares {
         padding-left: 60px;
+    }
+
+    .infoPreço {
+        width: 160px;
+        font-weight: 600;
     }
 }
 

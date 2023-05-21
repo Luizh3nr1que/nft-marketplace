@@ -18,7 +18,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 2px;
     height: 1px;
     background-color: #000000;
     border-radius: 10px;
@@ -166,10 +166,6 @@ ul a {
 li a:hover {
     background-color: #030303cc;
 }
-
-
-
-
 
 .container-principal {
     display: flex;

@@ -187,10 +187,7 @@
         padding-left: 60px;
     }
 
-    .infoPreço {
-        width: 160px;
-        font-weight: 600;
-    }
+
 }
 
 
@@ -292,6 +289,11 @@
 
     .redes {
         gap: 3px;
+    }
+
+    .infoPreço {
+        width: 160px;
+        font-weight: 600;
     }
 
 }

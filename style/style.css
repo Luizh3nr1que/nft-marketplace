@@ -140,10 +140,10 @@ nav a:hover {
 
 ul {
     background-color: #252525 !important;
-    height: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 150px !important;
+    width: 185px !important;
+    height: 150px;
     border-radius: 8px !important;
     list-style: none;
 }

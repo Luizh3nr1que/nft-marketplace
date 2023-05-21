@@ -100,13 +100,11 @@ function togglemenu() {
 
     if (menuMobile.className === "menu-mobile-active") {
         menuMobile.className = "menu-mobile";
-        img.src = './img/hamburger.png';
+        img.style.display = 'block';
         img.style.width = '60px';
     } else {
         menuMobile.className = "menu-mobile-active"
-        img.src = './img/menu-fechar.png';
-        img.style.width = '35px';
-        img.style.top = '5px';
-        img.style.left = '5px';
+        img.style.display = 'none';
+
     }
 }

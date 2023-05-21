@@ -14,6 +14,17 @@
     cursor: pointer;
 }
 
+.buttonMenuFecha {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.buttonMenuFecha .material-icons {
+    font-size: 60px;
+    color: #ff5b50;
+}
+
 .menuImg {
     width: 150px;
     margin: auto;

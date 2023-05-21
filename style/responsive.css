@@ -208,6 +208,7 @@
 
     .gallery-imgs {
         width: 630px;
+        height: 100%;
         margin-top: 1px;
         margin-left: 50px;
         padding: 5px;

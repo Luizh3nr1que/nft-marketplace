@@ -199,7 +199,6 @@
 
 }
 
-
 @media screen and (max-width:560px) {
     header {
         gap: 20px;
@@ -207,6 +206,10 @@
 
     .card1-principal {
         display: none;
+    }
+
+    .card2-principal {
+        margin-left: 80px;
     }
 
     .card2-principal h1 {
@@ -220,8 +223,9 @@
     }
 
     .gallery-imgs {
-        width: 700px;
-        margin-left: 0px;
+        width: 630px;
+        margin-top: 1px;
+        margin-left: 50px;
         padding: 5px;
         overflow-y: scroll;
     }
@@ -306,6 +310,13 @@
     }
 
 }
+
+@media screen and (max-width:553px) {
+    .card2-principal {
+        margin-left: -10px !important;
+    }
+}
+
 
 @media screen and (max-width:483px) {
     .nav-conteudo {

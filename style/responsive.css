@@ -1,10 +1,10 @@
 @media screen and (max-width:1024px) {
     .info {
-        margin-top: -55px !important;
+        margin-top: -85px !important;
     }
 
     .gallery-imgs {
-        margin-top: -65px;
+        margin-top: -115px;
     }
 
 
@@ -15,6 +15,9 @@
         display: none;
     }
 
+    .right-bord-text {
+        margin-top: 50px;
+    }
 
 
     body,

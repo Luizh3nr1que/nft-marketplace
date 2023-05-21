@@ -79,17 +79,20 @@ for (var i = 0; i < nft.length; i++) {
 }
 
 
-
 const buttonPerfil = document.getElementById('abrirPerfil');
 const perfil = document.querySelector('.menu');
+const body = document.body;
 
 buttonPerfil.addEventListener('click', () => {
     if (perfil.style.display === 'none') {
         perfil.style.display = 'block';
+        body.style.overflow = 'hidden';
     } else {
         perfil.style.display = 'none';
+        body.style.overflow = 'scroll';
     }
 });
+
 
 
 

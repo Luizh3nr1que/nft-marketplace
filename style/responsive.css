@@ -1,6 +1,10 @@
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1024px) {
     .info {
-        margin-top: -55px;
+        margin-top: -55px !important;
+    }
+
+    .gallery-imgs {
+        margin-top: -65px;
     }
 
 
@@ -10,6 +14,8 @@
     .logo-principal {
         display: none;
     }
+
+
 
     body,
     html {

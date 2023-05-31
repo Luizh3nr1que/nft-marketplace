@@ -1,6 +1,6 @@
 # nft-marketplace
 
-<b>Esse e um dos projetos que estou desenvolvendo para aprimorar minhas habilidades e me desafiar a um projeto grande com varios elementos , ainda falta uns detalhe mais acredito que chegeui aonde queria. <b>
+<b>Esse e um dos projetos que estou desenvolvendo para aprimorar minhas habilidades e me desafiar a um projeto grande com varios elementos e que fosse responsivo <b>
 <br>
 
 <h1>Tecnologias utilizadas</h1>
@@ -9,5 +9,5 @@
  
 <br>
 
-<h1>Este projeto pode ser visto aqui</h1>
-https://luizh3nr1que.github.io/plataforma-cursos/
+<h1>Este projeto pode ser visto  <a href='https://luizh3nr1que.github.io/plataforma-cursos/'>aqui</a></h1>
+
